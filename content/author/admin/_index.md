@@ -19,7 +19,7 @@ organizations = [ { name = "University of Michigan - Dearborn", url = "https://w
 bio = "Film and Media scholar."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "erik@erikmarshall.net"
+email = "emarshphd@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
@@ -34,14 +34,15 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Film Studies"
+  course = "Ph.D, Film Studies"
   institution = "Wayne State University"
   year = 2010
 
-# [[education.courses]]
-#  course = "MEng in Artificial Intelligence"
-#  institution = "Massachusetts Institute of Technology"
-#  year = 2009
+  [[education.courses]]
+    course = "B.A., French/Secondary Education"
+    institution = "Wayne State University"
+    year = 1995
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -57,6 +58,11 @@ interests = [
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/emarsh"
+
+  [[social]]
+    icon = "instagram"
+    icon_pack = "fab"
+    link = "https://instagram.com/emarshphd"
 
 # [[social]]
 #  icon = "google-scholar"
@@ -77,4 +83,4 @@ interests = [
 
 +++
 
-Erik Marshall is a writer and teacher, currently working at University of Michigan - Dearborn. He is writing a memoir and a novel series about an adjunct professor who moonlights as a private detective. 
+Erik Marshall is a writer and teacher, currently working at University of Michigan - Dearborn. He is writing a memoir and a novel series about an adjunct professor who moonlights as a private detective.
