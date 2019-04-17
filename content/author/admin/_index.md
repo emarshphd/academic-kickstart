@@ -83,4 +83,4 @@ interests = [
 
 +++
 
-Erik Marshall is a writer and teacher, currently working at University of Michigan - Dearborn. He is writing a memoir and a novel series about an adjunct professor who moonlights as a private detective.
+Erik Marshall (or "emarsh" to his friends) is a writer and teacher, currently working at University of Michigan - Dearborn. He is writing a memoir and a novel series about an adjunct professor who moonlights as a private detective.
