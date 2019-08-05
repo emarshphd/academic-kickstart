@@ -59,10 +59,17 @@ interests = [
   icon_pack = "fab"
   link = "https://twitter.com/emarsh"
 
-  [[social]]
+[[social]]
     icon = "instagram"
     icon_pack = "fab"
     link = "https://instagram.com/emarshphd"
+    
+
+  [[social]]  
+    icon = "mastodon"
+    icon_pack = "fab"
+    link = "https://scholar.social/@emarsh"
+    
 
 # [[social]]
 #  icon = "google-scholar"
