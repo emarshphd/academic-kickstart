@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Lecturer II"
+role = "Lecturer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -63,13 +63,13 @@ interests = [
     icon = "instagram"
     icon_pack = "fab"
     link = "https://instagram.com/emarshphd"
-    
+
 
   [[social]]  
     icon = "mastodon"
     icon_pack = "fab"
     link = "https://scholar.social/@emarsh"
-    
+
 
 # [[social]]
 #  icon = "google-scholar"
