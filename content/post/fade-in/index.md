@@ -6,7 +6,7 @@ subtitle = "Coming back to blogging"
 summary = "In which I talk about blogfade and dip my toes back into the medium"
 
 date = 2019-08-05T09:19:52-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
