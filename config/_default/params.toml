@@ -3,13 +3,13 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "default"
+theme = "Minimal"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = " "
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -72,6 +72,7 @@ contact_links = [
   ]
 
 # Display a map.
+# NOTE: Old map section pre-4.5. See below for new map section
 # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
 # a map provider below.
 # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
@@ -86,11 +87,11 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+# map = 0
+# map_api_key = ""
+# latitude = "37.4275"
+# longitude = "-122.1697"
+# zoom = 15
 
 ############################
 ## Plugins                ##
@@ -159,3 +160,39 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+    # Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
+
+    [map]
+      # new maps section in 4.5
+      # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+      # and choose a map provider below.
+      #
+      # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+      #   https://developers.google.com/maps/documentation/javascript/get-api-key
+      # To use OpenStreetMap tiles, set `engine` to 2.
+      # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+      #   https://www.mapbox.com/studio/account/tokens
+      #
+      # Map provider:
+      #   0: No map
+      #   1: Google Maps
+      #   2: OpenStreetMap (Mapnik)
+      #   3: OpenStreetMap (Mapbox)
+      engine = 2
+      api_key = ""
+      zoom = 15
