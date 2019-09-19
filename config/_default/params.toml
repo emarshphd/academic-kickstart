@@ -39,6 +39,10 @@ math = false
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
 
+# Enable visitors to edit pages?
+#   `repo` defines the repository URL. `editable` defines which page types can be edited.
+edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
@@ -52,7 +56,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "erik@erikmarshall.net"
 phone = ""
-address = ""
+address = {street = "", city = "", region = "", postcode = "", country = "", country_code = ""}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -177,7 +181,7 @@ sharing = true
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
-    [map]
+[map]
       # new maps section in 4.5
       # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
       # and choose a map provider below.
