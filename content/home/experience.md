@@ -17,6 +17,7 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
   title = "Lecturer II"
   company = "University of Michigan - Dearborn"
@@ -50,6 +51,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
+
   title = "Adjunct"
   company = "Oakland Community College"
   company_url = ""
@@ -64,6 +66,7 @@ date_format = "Jan 2006"
     """
 
 [[experience]]
+
       title = "Graduate Teaching Assistant"
       company = "Wayne State University"
       company_url = "http://www.wayne.edu/"
@@ -79,6 +82,7 @@ date_format = "Jan 2006"
 """
 
 [[experience]]
+
         title = "Adjunct Instructor"
         company = "Wayne State University"
         company_url = "http://www.wayne.edu/"
@@ -90,6 +94,7 @@ date_format = "Jan 2006"
 """
 
 [[experience]]
+
           title = "Adjunct Instructor"
           company = "Lawrence Tech University"
           company_url = "http://www.ltu.edu/"
@@ -101,6 +106,7 @@ date_format = "Jan 2006"
 """
 
 [[experience]]
+
             title = "Adjunct Instructor"
             company = "College for Creative Studies"
             company_url = ""
@@ -110,5 +116,4 @@ date_format = "Jan 2006"
             description = """Courses taught:    
   * History of Animation
             """
-
 +++
