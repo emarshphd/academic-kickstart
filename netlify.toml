@@ -1,4 +1,5 @@
 [build]
+  command = "CI= npm run build"
   command = "hugo"
   publish = "public"
 
@@ -6,3 +7,4 @@
   HUGO_VERSION = "0.78.2"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "false"
+
