@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  - title = "Lecturer II"
+  title = "Lecturer II"
   company = "University of Michigan - Dearborn"
   company_url = "https://www.umdearborn.edu"
   location = "Dearborn, MI"
